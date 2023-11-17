@@ -354,7 +354,7 @@ def one_channel_classification(channel, single_data_index=0):
     plt.ylabel('Voltage (uV)')
     plt.savefig('./img/multiple_filtered_spikes.png')
 
-one_channel_classification(channel=1, single_data_index=2)
-for i in range(20):
-    one_channel_classification(channel=1, single_data_index=1000 + i)
+# one_channel_classification(channel=1, single_data_index=2)
+# for i in range(20):
+#     one_channel_classification(channel=1, single_data_index=1000 + i)
 
